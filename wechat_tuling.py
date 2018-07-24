@@ -2,7 +2,7 @@
 import itchat
 import requests
 
-KEY = ''	#图灵机器人的apikey
+KEY = 'apikey'	#图灵机器人的apikey
 
 def get_response(msg):		#接收图灵回复
 	apiURL = 'http://www.tuling123.com/openapi/api'
